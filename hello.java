@@ -7,7 +7,9 @@ public class hello {
 
 // how to push code on github
 // git init
+// git status
 // git add .
+// git status
 // git commit -m "first commit"
 // git remote add origin https://github.com/your-username/your-repo-name.git
 // git push -u origin main
