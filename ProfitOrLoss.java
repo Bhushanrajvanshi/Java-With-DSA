@@ -12,8 +12,8 @@ public class ProfitOrLoss {
 
      if(sellingPrice>costPrice){
          System.out.println("Profit: "+profit);
-    } else {
+     } else {
         System.out.println("Loss: "+loss);
-    }
+     }
     }
 }
