@@ -13,10 +13,13 @@ public class PrimeNumber {
                 break;
             }
         }
-        if (!isPrime) {
+        if(num==1){
+            System.out.println("1 is neither prime nor composite.");
+        }
+        else if (!isPrime) {
             System.out.println(num + " is a prime number.");
         } else {
-            System.out.println(num + " is not a prime number.");
+            System.out.println(num + " It is a Composite number.");
         }
     }
 }
