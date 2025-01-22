@@ -1,7 +1,7 @@
 package Array_Java;
 import java.util.Scanner;
 
-public class BasicSearchonArray {
+public class BasicSearchingArray {
     static void PrintArray(int arr[]) {
         for (int i=0; i<arr.length; i++) {
             System.out.print(arr[i] + " ");
