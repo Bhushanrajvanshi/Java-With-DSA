@@ -32,7 +32,7 @@ public class CountElement {
 
     static int StrictlyGreater(int arr[], int num) {
         int count = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if ( arr[i]>num) {
                 count++;
             }
@@ -41,8 +41,8 @@ public class CountElement {
     }
 
     static boolean isSorted(int arr[]) {
-         boolean check = true;
-        for (int i = 0; i < arr.length - 1; i++) {
+        boolean check = true;
+        for (int i = 0; i < arr.length-1; i++) {
             if ( arr[i]>arr[i+1] ){
                 check = false;
             }
