@@ -31,6 +31,14 @@ public class equalSumPartition {
         return false;
     }
 
+    static int[] sumfixSum(int arr[]){
+        int n = arr.length;
+
+        for(int i=n-2; i>=0; i--){
+            arr[i] += arr[i+1];
+        }
+        return arr;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -43,6 +51,8 @@ public class equalSumPartition {
         }
         printArray(arr);
         // int sum = totelSum(arr);
-        System.out.println("Equal sum partition is: "+ equalSumPartition(arr));
+        // System.out.println("Equal sum partition is: "+ equalSumPartition(arr));
+        int fixSum[] = sumfixSum(arr);
+        printArray(fixSum);
     }
 }
