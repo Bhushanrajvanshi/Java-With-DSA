@@ -14,7 +14,7 @@ public class PlusStar {
                 if (i==middle || j==middle) {
                     System.out.print("* ");
                 } else {
-                    System.out.print("# ");
+                    System.out.print("  ");
                 }
             }
             System.out.println();
